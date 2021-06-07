@@ -1,0 +1,64 @@
+body{
+    font-family: "Raleway", sans-serif;
+
+    text-align: center; 
+
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+    background-image: url(h.jpg)
+
+}
+
+#local{
+    width: 100%;
+    background-color: #0174DF;
+    padding: 15px 0;
+    margin: 0;
+
+    font-size: 1.5rem;
+    color: #ffffff;
+    text-align: center;
+}
+
+#cities{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#cities td{
+    border: 1px solid #fff;
+    padding: 8px;
+
+    border-spacing: 0;
+    margin: 0px auto;
+}
+
+
+#cities tr:nth-child(even){
+    background-color: #CEE3F6;
+}
+
+
+tr:nth-child(even):hover{
+    background-color: #A9BCF5;
+    color: #0000FF;
+}
+
+tr:nth-child(odd):hover{
+    background-color: #A9A9F5;
+    color: #fff;
+}
+
+
+.col1{
+    width: 10%;
+}
+
+.col2{
+    width: 45%;
+}
+
